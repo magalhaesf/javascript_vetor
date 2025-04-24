@@ -1,4 +1,4 @@
-let numeros = [];
+/*let numeros = [];
 
 numeros[0] = prompt();
 numeros[1] = prompt();
@@ -10,4 +10,21 @@ for (let x =0; x < numeros.length; x++) {
     console.log(numeros[x]);
 }
 
-console.log(numeros.length);
+console.log(numeros.length);*/
+
+//==============================================================================
+
+/*let estados = [
+    "Roraima",
+    "Acre",
+    "Tocantis",
+    "Bahia"
+];
+
+//Ordenar o vetor
+estados.sort();
+
+console.log(estados);*/
+
+//===============================================================================
+
