@@ -84,16 +84,18 @@ console.log("===================================================================
 //3- laço para percorrer o vetor
 //4- transformar a função em dinâmica passando o vetor(qualquer vetor)
 
-function imprimeVetor(){
-
-    for (item of cores){
-        console.log(item);
-    };
+function imprimeVetorProdutos(){
 
     for (item of produtos){
         console.log(item);
     };
 };
+
+function imprimeVetorCores(){
+    for (item of cores){
+        console.log(item);
+    };
+}
 
 //imprimeVetor(cores);
 //imprimeVetor(produtos);
@@ -105,7 +107,7 @@ function adicionaNoFinal(vetor, elemento){
 };
 
 adicionaNoFinal(cores, "Rosa");
-imprimeVetor(cores);
+imprimeVetorCores(cores);
 
 console.log("========================================================================");
 
@@ -113,4 +115,4 @@ function adicionaNoInicio(vetor, elemento){
     vetor.unshift(elemento);
 };
 adicionaNoInicio(produtos, "Chocolate");
-imprimeVetor(produtos);
+imprimeVetorProdutos(produtos);
