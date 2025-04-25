@@ -97,6 +97,13 @@ function imprimeVetorCores(){
     };
 }
 
+function imprimeVetorSistemas(){
+    for (item of sistemas){
+        console.log(item);
+    };
+}
+
+
 //imprimeVetor(cores);
 //imprimeVetor(produtos);
 
@@ -114,5 +121,15 @@ console.log("===================================================================
 function adicionaNoInicio(vetor, elemento){
     vetor.unshift(elemento);
 };
+
 adicionaNoInicio(produtos, "Chocolate");
 imprimeVetorProdutos(produtos);
+
+console.log("========================================================================");
+
+function RemoveNoInicio(vetor, elemento){
+    vetor.shift(elemento);
+};
+
+RemoveNoInicio(sistemas);
+imprimeVetorSistemas(sistemas);
